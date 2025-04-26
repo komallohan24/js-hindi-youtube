@@ -39,3 +39,29 @@ let myObj = {
   
  // study for intervier 13.5.3 link:
  // https://tc39.es/ecma262/#sec-typeof-operator
+
+
+ //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ // stack(Primitive), heap(non-primitive)
+
+ let myYoutubename = "komalchaudharydotcom"
+
+ let anothername = myYoutubename
+ anothername = "chaiaurcode"
+
+ console.log(myYoutubename);
+ console.log(anothername);
+
+ let userOne = {
+    email: "user@google.com" ,
+    upi: "user@ybl"
+ }
+
+ let userTwo = userOne
+
+ userTwo.email = "komal@google.com"
+
+ console.log(userOne.email);
+ console.log(userTwo.email);
+ 
