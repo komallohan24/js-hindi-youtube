@@ -40,11 +40,45 @@ const obj4 = {5: "a", 6:"b"}
  ]
 
  user[1].email //first value access 
- console.log(tinderUser);
+//  console.log(tinderUser);
 
- console.log(Object.keys(tinderUser))
- console.log(Object.values(tinderUser))
- console.log(Object.entries(tinderUser)) // array in array
+//  console.log(Object.keys(tinderUser))
+//  console.log(Object.values(tinderUser))
+//  console.log(Object.entries(tinderUser)) // array in array
  
- console.log(tinderUser.hasOwnProperty('isLoggedIn')); //value present ha ya nahi
+//  console.log(tinderUser.hasOwnProperty('isLoggedIn')); //value present ha ya nahi
  
+ const course = {
+    coursename : "js in hindi" , 
+    price : 999 ,
+    courseInstructor : "hitesh"
+ }
+
+//  course.courseInstructor
+
+const{courseInstructor :  instructor} = course // method to extract values or access value
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+// API in object
+
+// {
+//     "name" : "komal",
+//     "coursename" : "js in hindi",
+//     "price" : "free"
+// }
+
+// url:https://api.github.com/users/hiteshchoudhary
+
+// API in array format
+[
+    {},
+    {},
+    {},
+]
+
+// randomuser me api:https://randomuser.me/
+
+// tools for undeerstanding api : https://jsonformatter.org/
+
