@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html eventst</title>
+</head>
+<body style="background-color: #414141;">
+    <h2>Amazing image</h2>
+    <div>
+        <ul id = "images">
+            <li><img width="200px" id="photoshop" src="https://images.pexels.com/photos/2244330/pexels-photo-2244330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="photoshop"></li>
+             <li><img width="200px" id="japan" src="https://media.istockphoto.com/id/876560704/photo/fuji-japan-in-spring.jpg?s=612x612&w=is&k=20&c=RcxUoOZpOU14ubtA64DmB1Y5K6xJa0QmSvyFYk3WJEc=" alt=""></li>
+             <li><img width="200px" id="river" src="https://thumbs.dreamstime.com/z/mountain-river-forest-north-cascades-national-park-washington-usa-73004270.jpg?ct=jpeg" alt=""></li>
+             <li><img width="200px" id="owl" src="https://images.pexels.com/photos/53977/eagle-owl-raptor-falconry-owl-53977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" ></li>
+             <li><img width="200px" id="prayer" src="https://as1.ftcdn.net/v2/jpg/02/51/10/54/1000_F_251105492_sSn5Jr8hHiCER1DWgbRZKZCGeWJ92k2l.jpg" alt=""></li>
+             <li><a style="color:aliceblue" href="https://google.com" id="google">Google</a></li>
+        </ul>
+    </div>
+</body>
+<script>
+//  document.getElementById('owl').onclick=function(){
+//     alert("owl clicked")
+//  }
+
+// attachEvent()
+// JQuery - on
+
+document.getElementById('owl').addEventListener('click',function(e){
+console.log(e);
+
+}, false)// third parameter false , e for event object
+
+//type(keyboard type event, mouse type event) , timestamp(date time activity change) , defaultPrevented(change default behaviour of anything)
+// target , toElement , srcElement, currentTarget
+// clientX , clientY, screnX , screenY(position related)
+// altKey, ctrlKey, shiftKey, keyCode
+
+
+
+ </script>
+</html>
