@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komal Portfolio</title>
+    <link rel="stylesheet" href = "style.css">
+</head>
+<body>
+
+    <!--Nav bar-->
+    <header>
+        <nav class="navbar">
+            <div class="logo">K</div>
+
+      <!--Destop Nav-->      
+      <ul class="nav-links" id="navlinks">
+        <li><a href ="#home" class ="active">Home</a></li>
+        <li><a href="#about" >About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#contact" class="contact-btn">&#128222; Contact Me</a>
+        <div class="menu-icon" id="menuIcon">&#9776;</div>
+      </div>
+     </nav>
+    </header>
+
+    <!--home-->
+    <section id="home" class="homeSection">
+        <div class="home-text">
+            <h3>Hello</h3>
+            <h1>I'm <span>Komal</span></h1>
+            <h2>Full Stack Web Developer</h2>
+            <p>I am a passionate ful-stack web developer with strong expertise in web development.</p>
+            <a href="contact" class="hire-btn">&#128187; Hire Me!</a>
+        </div>
+        <div class="home-img">
+            <img src="komal.jpeg" alt="Komal">
+        </div>
+    </section>
+
+    <!--ABOUT-->
+    <section id="about" class="sectionabout">
+        <h2>About Me</h2>
+        <p>
+            I'm a self-motivated and continously learning web developer who loves turning complex problems into simple, intuitive solutions. My journey started with front-end development, where I mastered creating beautiful user interfaces.
+        </p>
+        <p>
+            As I grew, I expanded into back-end technologies to build full-fledged web applications.Currently, I am sharpening my skills in Node.js and java, expanding my backened and server-side capabilities.
+        </p>
+        <p>
+            I enjoy learning new technologies and constantly challenge myself to keep up with industry trends.
+        </p>
+    </section>
+
+    <!--skills-->
+    <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>Frontend Development</h3>
+                <img src="frontend.png" alt="Frontend Icon">
+                <p>HTML, CSS, Javascript, React.js(learning)</p>
+            </div>
+
+         <div class="skill-card">
+            <h3>Backend Development</h3>
+            <img src="backend.jpg" alt="Backend Icon">
+            <p>Node.js, Java(learning)</p>
+         </div>
+
+         <div class="skill-card">
+            <h3>Database</h3>
+            <img src="database.jpg" alt="Database Icon">
+            <p>SQL, MongoDB</p>
+         </div>
+
+         <div class="skill-card">
+            <h3>Tools and Technologies</h3>
+            <img src="tool.png" alt="Tools Icon">
+            <p>Git & GitHub, VScode, Responsive Design, Deployment</p>
+         </div>
+            </div>
+    </section>
+
+<!--project-->
+<section id ="projects" class="projects-section">
+    <h2>My Projects</h2>
+    <p class="projects-subtitle">Some of my GitHub projects</p>
+
+    <div class="projects-container"></div>
+
+    <!--Project 1-->
+    <div class="project-card">
+
+        <div class="project-card">
+        <img src="project1.png" alt="Digital Clock">
+        <h3>Digital Clock</h3>
+        <p>HTML, CSS, Javascript</p>
+        <a href="https://github.com/komallohan24/js-hindi-youtube/tree/main/Digital%20clock" class="view-btn">View</a>
+    </div>
+
+    <!--project2-->
+    <div class="project-card">
+        <img src="project2.png" alt="Portfolio">
+        <h3>Portfolio</h3>
+        <p>HTML, CSS, Javascript</p>
+        <a href="" class="view-btn">View</a>
+    </div>
+    </div>
+</section>
+
+<!--contact-->
+<section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <p class="contact-subtitle">Please fill out the form below to discuss any work opportunities</p>
+
+    <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+
+    <div class="social-icons">
+        <a href="#"><img src="github.png" alt="GitHub"></a>
+         <a href="#"><img src="instagram.jpg" alt="Instagram"></a>
+          <a href="#"><img src="linkedin.jpg" alt="LinkedIn"></a>
+           <a href="#"><img src="gmail.jpg" alt="Gmail"></a>
+    </div>
+</section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
