@@ -27,3 +27,13 @@ window.addEventListener("scroll",()=>{
         }
     });
 });
+
+function sendMail(){
+    let parms={
+        name : document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        message:document.getElementById("message").value,
+    };
+
+    emailjs.send("service_4xb6x2l","template_6g1gjig",parms).then(alert("Email Sen!!"))
+}
